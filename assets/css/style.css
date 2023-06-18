@@ -717,7 +717,8 @@ main {
 
 #avatar{
   position: relative;
-  bottom: 15px;
+  border-radius: 20px;
+  /*bottom: 15px;*/
 }
 
 .modal-title { margin-bottom: 4px; }
