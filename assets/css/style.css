@@ -74,7 +74,7 @@
   --white-2: hsl(0, 0%, 98%);
   /*--orange-yellow-crayola: hsl(45, 100%, 72%);*/
   --orange-yellow-crayola: rgb(72 162 240);
-  --vegas-gold: hsl(45, 54%, 58%);
+  --vegas-gold: rgb(72 162 240);
   --light-gray: hsl(0, 0%, 84%);
   --light-gray-70: hsla(0, 0%, 84%, 0.7);
   --bittersweet-shimmer: hsl(0, 43%, 51%);
@@ -1139,9 +1139,9 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 .form-btn ion-icon { font-size: 16px; }
 
-.form-btn:hover { background: var(--bg-gradient-yellow-1); }
+.form-btn:hover { background: var(--orange-yellow-crayola); }
 
-.form-btn:hover::before { background: var(--bg-gradient-yellow-2); }
+.form-btn:hover::before { background: var(--orange-yellow-crayola)); }
 
 .form-btn:disabled {
   opacity: 0.7;
